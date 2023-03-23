@@ -1,0 +1,6 @@
+<div>
+    Games per page
+    <select #numbersComponent (change)="onSelected()">
+        <option *ngFor="let i of numbers" value="{{i}}" default="1">{{i}}</option>
+    </select>
+</div>
